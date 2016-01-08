@@ -99,40 +99,71 @@
 
 
 <!--Projects-->
-<div= class="container">
-  <div class="container-fluid secondary-2-0 top-pad">
+<div= class="container top-pad">
+  <div class="container-fluid secondary-2-0">
 
     <h2 id="projectsID">Current Projects</h2>
-    <p>Here will go project carousel</p>
-      <div class="jumbotron">
-        <!--unit of project-->
-        <div class="container primary-3 rounded">
-          <button type="button" class="btn btn-lg">
-            <span class="glyphicon glyphicon-book"></span>
-          </button>
-          <h3>Resume Template</a>
-          <p>A practice project for css styling"
+    <p>Projects I have worked for Epicodus assignments.</p>
+
+
+<!--projects carousel: borrowed and modified from bootstrap main page-->
+    <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#projectCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#projectCarousel" data-slide-to="1"></li>
+      <li data-target="#projectCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="carousel-caption">
         </div>
-        <!--unit of project-->
-        <div class="container primary-3 rounded">
+        <div class="container small-container primary-3 rounded">
+            <button type="button" class="btn btn-lg">
+              <span class="glyphicon glyphicon-book"></span>
+            </button>
+            <h3>Resume Template</h3>
+            <p>A practice project for css styling"</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="carousel-caption">
+        </div>
+        <div class="container small-container primary-3 rounded">
           <button type="button" class="btn btn-lg">
             <span class="glyphicon glyphicon-send"></span>
           </button>
-          <h3>Paris Vacation</a>
-          <p>Practice using Bootstrap
+          <h3>Paris Vacation</h3>
+          <p>Practice using Bootstrap</p>
         </div>
-        <!--unit of project-->
-        <div class="container primary-3 rounded">
+      </div>
+
+      <div class="item">
+        <div class="carousel-caption">
+        </div>
+        <div class="container small-container primary-3 rounded">
           <button type="button" class="btn btn-lg">
             <span class="glyphicon glyphicon-camera"></span>
           </button>
-          <h3>Movie-Blog</a>
-          <p>A practice project for very basic css styling"
+          <h3>Movie-Blog</h3>
+          <p>A practice project for very basic css styling</p>
         </div>
       </div>
+
+    </div>
+    <!-- Controls -->
+      <a class="left carousel-control" href="#projectCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#projectCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
-
-  <!--end Projects-->
-
   </body>
-</html>
+  </html>

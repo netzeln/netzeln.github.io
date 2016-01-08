@@ -22,3 +22,24 @@
 .navbar-custom{
   background-color: #FFDEBB;
 }
+
+.small-container{
+  max-width:50%;
+
+}
+.small-container button {
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.small-container h3 {
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  color: #ffdebb;
+}
+
+.small-container p{
+text-align: center;
+}
