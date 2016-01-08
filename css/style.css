@@ -2,7 +2,23 @@
   padding: 10px;
 }
 
+.top-pad{
+  padding-top:50px;
+}
 .rounded {
   border-radius: 10px;
-  
+}
+//** found this navbar height change code online**//
+
+.navbar-nav > li > a, .navbar-brand {p
+  adding-top:5px !important; padding-bottom:5px !important;
+}
+
+.navbar-fixed-top {
+  height: 25px !important;
+}
+
+
+.navbar-custom{
+  background-color: #FFDEBB;
 }

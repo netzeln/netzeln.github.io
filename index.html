@@ -14,15 +14,43 @@
   </head>
 
   <body class="primary-2">
+
+<!--navbar-->
+    <div class="navbar navbar-custom navbar-fixed-top">
+      <div class="container">
+
+        <a class="navbar-brand text-muted site-title" href="#">Nicholas Netzel</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#aboutID">About</a> </li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" data-target="#">Experience <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#experienceID">Experience and Education</a> </li>
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+            <li><a href="#projectsID">Projects</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
 <!--About Me-->
+  <div class="top-pad">
     <div class="row">
       <div class="container">
         <div class="col-sm-8 col-sm-offset-2 secondary-1-2 rounded">
-          <h2>About Me</h2>
+          <h2 id="aboutID">About Me</h2>
           <p>
             I'm a student in the Introductory Class at Epicodus in Portland, OR. Minnesotan at heart, I've also spent time in Seattle, Washington D.C., and Baltimore.</p>
           <p>I'm also a former high school/YA Librarian and educator, and a long time summer    camp counselor. I started at Epicodus to learn valuable 21st-century skills, add value to my resume, and pass the time while I wait for a great Librarian Job to pop up. My ideal career would involve Libraries and/or  information/technology literacy education in some way.
           </p>
+
         </div>
       </div>
     </div>
@@ -46,7 +74,7 @@
 
       <div class="container secondary-2-2 rounded">
         <div class="col-sm-6 secondary-1-2 rounded">
-          <h3>Education and Experience</h3>
+          <h3 id="experienceID">Education and Experience</h3>
           <h4>Schools Attended</h4>
           <ul>
             <li>Carleton College, '01: <em>B.A., History</em></li>
@@ -70,9 +98,10 @@
   <!--Projects-->
   <div class="container-fluid secondary-2-0">
 
-    <h2>Current Projects</h2>
+    <h2 id="projectsID">Current Projects</h2>
     <p>Here will go project carousel</p>
-  
+
+</div>
 </div>
   <!--end Projects-->
 
