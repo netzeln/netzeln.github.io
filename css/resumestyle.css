@@ -1,0 +1,41 @@
+body {
+  font-family:sans-serif;
+}
+
+.name{
+  font-weight:bold;
+}
+
+.address{
+
+}
+
+.phone{
+
+}
+
+.email{
+  font-style:italic;
+}
+
+.contact{
+
+}
+
+.info{
+
+}
+
+.info-header{
+
+
+}
+
+.list-unit{
+  font-weight:bold;
+}
+
+.reference{
+  font-family:serif;
+}
+/*Some classes left empty for now for flexibility later
