@@ -6,7 +6,7 @@ _A personal programing profile to satisfy week-1 coding objectives at epicodus. 
 ## Setup/Installation requirements
 *Should just be a website, so view in a browser
 ##Known Bugs
-_None, I hope
+_Dropdown menu doesn't read correctly when collapsed. the Resume page needs additional work. More git-hub projects could be added.
 ## Technologies Used
 *html
 *css
